@@ -12,5 +12,9 @@ For making changes on AWS, we have to authenticate with proper credentials. We'l
 - AWS_REGION
 - EKS_CLUSTER
 
+## Cost Optimization
+
+Provisioning private subnets and consequently, NAT gateways is avoided to save costs. Users can uncomment and change the flag values to pursue this at will.
+
 
 

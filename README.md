@@ -1,6 +1,6 @@
 # GitOps-Setting up the Infrastructure
 
-Here, we set up the infrastructure end of the GitOps project. The application workflow-associated code can be found [here](https://github.com/ardhendusgit/IAC-AWS). We use official terraform modules and Github action modules wherever deemed necessary. Nginx Ingress Controller for the Kubernetes cluster is deployed for achieving host-based routing.
+Here, we set up the infrastructure end of the GitOps project. The application workflow-associated code can be found [here](https://github.com/ardhendusgit/gitops-action). We use official terraform modules and Github action modules wherever deemed necessary. Nginx Ingress Controller for the Kubernetes cluster is deployed for achieving host-based routing.
 
 ## Environment Variables
 

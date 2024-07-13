@@ -2,7 +2,7 @@
 
 Here, we set up the infrastructure end of the GitOps project. The application workflow-associated code can be found [here](https://github.com/ardhendusgit/IAC-AWS). We use official terraform modules and Github action modules wherever deemed necessary. Nginx Ingress Controller for the Kubernetes cluster is deployed for achieving host-based routing.
 
-## Building and Publishing
+## Environment Variables
 
 For making changes on AWS, we have to authenticate with proper credentials. We'll store these credentials securely in GitHub Secrets. The credentials used are:
 
